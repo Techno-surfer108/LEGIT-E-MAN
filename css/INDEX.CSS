@@ -1,0 +1,28 @@
+.library-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .library-image1,
+  .library-image2,
+  .library-image3 {
+    flex-basis: 30%;
+    margin: 10px;
+  }
+  
+  .library-image1 img,
+  .library-image2 img,
+  .library-image3 img {
+    width: 100%;
+    height: auto;
+  }
+  /* Logo */
+#logo {
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+

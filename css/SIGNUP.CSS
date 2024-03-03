@@ -1,0 +1,68 @@
+/* Styles for the form container */
+section {
+    text-align: center;
+}
+
+/* Styles for the form itself */
+form.signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Styles for the form heading */
+form.signup-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styles for the form labels */
+form.signup-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Styles for the form input fields */
+form.signup-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+/* Styles for the form button */
+form.signup-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for the paragraph below the form */
+form.signup-form p {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Styles for the error message */
+form.signup-form .error-msg {
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+/* Styles for the success message */
+form.signup-form .success-msg {
+    color: #008000;
+    margin-top: 10px;
+}
+
+/* Styles to hide the 'Sign Up' button on successful sign-up */
+form.signup-form button[type='submit'] {
+    display: block; /* Set to 'none' in PHP when success occurs */
+}

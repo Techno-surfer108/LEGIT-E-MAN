@@ -1,0 +1,51 @@
+/* Styles for the form container */
+section {
+    text-align: center;
+}
+
+/* Styles for the form itself */
+.signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Styles for the form heading */
+.signup-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styles for the form labels */
+.signup-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Styles for the form input fields */
+.signup-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+/* Styles for the form button */
+.signup-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for the error message */
+.error-msg {
+    color: #ff0000;
+    margin-top: 10px;
+}
